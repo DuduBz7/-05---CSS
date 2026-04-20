@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #050a3a;
+    color: white;
+}
+.topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img {
+    height: 40px;
+    width: auto;
+}
+.topo a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.btn {
+    background: #00aaff;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+.jogos {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    overflow-x: auto;
+}
+
+.card {
+    background: #102080;
+    padding: 50px;
+    border-radius: 10px;
+    min-width: 200px;
+}
+
+.card.destaque {
+    background: #1a2cff;
+}
+
+/* CONTEÚDO */
+.conteudo {
+    padding: 20px;
+}
+
+.h4 {
+    display: flex;
+    justify-content: center;
+    align-items: right; 
+    height: 200px;
+    background: #102080;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.post {
+    height: 200px;
+    background: gray;
+    border-radius: 10px;
+}
+
+/* RODAPÉ */
+.rodape {
+    text-align: center;
+    padding: 15px;
+    background: #0a1a6a;
+    margin-top: 30px;
+}
