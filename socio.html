@@ -1,26 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<header class="topo">
+    <title>Sócio Torcedor - Cruzeiro</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+<header class="topo">
     <div class="logo">
         <a href="index.html">
-    <img src="imagens/logo.png" alt="Cruzeiro Esporte Clube">
-    </a>
+            <img src="imagens/logo.png" alt="Cruzeiro Esporte Clube">
+        </a>
     </div>
 
     <nav>
+        <a href="index.html">Início</a>
         <a href="ingressos.html">Ingressos</a>
         <a href="loja.html">Loja</a>
         <a href="socio.html" class="btn">Seja Sócio</a>
     </nav>
-</header>, initial-scale=1.0">
-    <title>Sócio Torcedor</title>
-</head>
-<body>
+</header>
 
-    <footer class="rodape">
-    <p>© 2026 - Todos os direitos reservados</p>
+<main class="container">
+
+    <h1>Seja Sócio Torcedor</h1>
+    <p>Faça parte da nação azul e aproveite benefícios exclusivos!</p>
+
+    <section class="video">
+        <h2>Conheça o Sócio Cruzeiro</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/xqYsPq92JQY?si=wLWu8Y-iIMybB2DH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <section class="formulario">
+        <h2>Cadastro</h2>
+
+        <form>
+            <label>Nome completo:</label>
+            <input type="text" name="nome" required>
+
+            <label>Email:</label>
+            <input type="email" name="email" required>
+
+            <label>Telefone:</label>
+            <input type="tel" name="telefone" required>
+
+            <label>Data de nascimento:</label>
+            <input type="date" name="nascimento" required>
+
+            <label>Plano:</label>
+            <select name="plano">
+                <option>Básico</option>
+                <option>Prata</option>
+                <option>Ouro</option>
+            </select>
+
+            <label>Mensagem:</label>
+            <textarea name="mensagem"></textarea>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </section>
+
+</main>
+
+<footer class="rodape">
+    <p>© Duduzin 2026 - Todos os direitos reservados</p>
+</footer>
 
 </body>
 </html>
